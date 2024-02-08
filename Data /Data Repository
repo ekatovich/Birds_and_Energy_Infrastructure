@@ -1,4 +1,8 @@
-All datasets for this project (raw, intermediate, and analysis) are stored in a public Dropbox folder at the following link: 
+All datasets for this project (raw, intermediate, and analysis) are available for viewing and download in a Dropbox folder at the following link: 
 https://www.dropbox.com/scl/fo/0wfljcf2a0vpebjs49hag/h?rlkey=4tn86o0pl5ivj3ofbs5dksa86&dl=0
 
 Users are free to download relevant datasets from this folder and save them in the appropriate file location on their computer in order to replicate cleaning, organizing, and analysis stages of the project. 
+
+The final analysis panel datasets used in the paper's preferred specification are named:
+"CBC_Shale_Combined_Characteristics_17_5_Panel.dta"
+"CBC_Wind_Combined_Characteristics_17_5_Panel.dta"
