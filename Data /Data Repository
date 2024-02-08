@@ -3,6 +3,12 @@ https://www.dropbox.com/scl/fo/0wfljcf2a0vpebjs49hag/h?rlkey=4tn86o0pl5ivj3ofbs5
 
 Users are free to download relevant datasets from this folder and save them in the appropriate file location on their computer in order to replicate cleaning, organizing, and analysis stages of the project. 
 
-The final analysis panel datasets used in the paper's preferred specification are named:
-"CBC_Shale_Combined_Characteristics_17_5_Panel.dta"
-"CBC_Wind_Combined_Characteristics_17_5_Panel.dta"
+The final analysis panel datasets that combine bird census data with shale well and turbine data are named:
+"Analysis/CBC_Shale_Combined_Characteristics_17_5_Panel.dta"
+"Analysis/CBC_Wind_Combined_Characteristics_17_5_Panel.dta"
+
+Christmas bird count panel data (without shale and turbine information) organized by bird characteristics are named:
+"Analysis\CBC_CircleLevel_Panel_Characteristics.dta"
+
+Christmas bird count panel data (without shale and turbine information) organized by taxonomic orders are named:
+"Analysis\CBC_CircleLevel_Panel.dta"
