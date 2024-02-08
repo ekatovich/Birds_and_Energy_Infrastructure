@@ -30,19 +30,19 @@ macro drop _all         // clear all macros
 *Data Cleaning:
 ***************
 
-do "Effort_Cleaning.do"
+do "Replication_Package/Effort_Cleaning.do"
 
-do "Weather_Cleaning.do"
+do "Replication_Package/Weather_Cleaning.do"
 
-do "Species_Cleaning.do"
+do "Replication_Package/Species_Cleaning.do"
 
-do "Wind_Turbines_Cleaning.do"
+do "Replication_Package/Wind_Turbines_Cleaning.do"
 
-do "Oil_and_Gas_Cleaning.do"
+do "Replication_Package/Oil_and_Gas_Cleaning.do"
 
-do "Population_Cleaning.do"
+do "Replication_Package/Population_Cleaning.do"
 
-do "Cleaning_BreedingBirdSurvey.do"
+do "Replication_Package/Cleaning_BreedingBirdSurvey.do"
 
 *****************************
 *Data Processing and Merging:
@@ -52,34 +52,36 @@ do "Cleaning_BreedingBirdSurvey.do"
 *Define the appropriate file path and execute the script. 
 *In R: "Mapping_CBC_Circles_VoronoiTesselations.R"
 
-do "Merge_Circles_Turbines.do"
+do "Replication_Package/Merge_Circles_Turbines.do"
 
-do "Merge_Circles_ShaleFields.do"
+do "Replication_Package/Merge_Circles_ShaleFields.do"
 
 *Pause here and open the following script in R. 
 *Define the appropriate file path and execute the script. 
+*Note: this file takes a long time to run. Pre-processed outputs are available in the Intermediate data folder, 
+*and final land-use shares merged with CBC circles are available in the Analysis data folder.
 *In R: "Land_Use_Data.R"
 
-do "Merge_Circles_LandUseProportions.do"
+do "Replication_Package/Merge_Circles_LandUseProportions.do"
 
 ***************
 *Data Analysis:
 ***************
 
-do "Analysis_Wind.do"
+do "Replication_Package/Analysis_Wind.do"
 
-do "Analysis_Shale.do"
+do "Replication_Package/Analysis_Shale.do"
 
-do "Analysis_Population.do"
+do "Replication_Package/Analysis_Population.do"
 
-do "Analysis_ImportantBirdAreas.do"
+do "Replication_Package/Analysis_ImportantBirdAreas.do"
 
 
 *********************
 *Descriptive Figures:
 *********************
 
-do "Descriptive_Figures.do"
+do "Replication_Package/Descriptive_Figures.do"
 
-do "News_Coverage.do"
+do "Replication_Package/News_Coverage.do"
 
