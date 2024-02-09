@@ -8,7 +8,7 @@ The final analysis panel datasets that combine bird census data with shale well 
 "Analysis/CBC_Wind_Combined_Characteristics_17_5_Panel.dta"
 
 Christmas bird count panel data (without shale and turbine information) organized by bird characteristics are named:
-"Analysis\CBC_CircleLevel_Panel_Characteristics.dta"
+"Analysis/CBC_CircleLevel_Panel_Characteristics.dta"
 
 Christmas bird count panel data (without shale and turbine information) organized by taxonomic orders are named:
-"Analysis\CBC_CircleLevel_Panel.dta"
+"Analysis/CBC_CircleLevel_Panel.dta"
